@@ -40,7 +40,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: revanth77/checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:
