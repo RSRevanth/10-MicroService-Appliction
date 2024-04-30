@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: revanth77/cartservice
+        image: cartservice
         ports:
         - containerPort: 7070
         env:
