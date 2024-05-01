@@ -70,7 +70,7 @@ kind: Service
 metadata:
   name: adservice
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: adservice
   ports:
