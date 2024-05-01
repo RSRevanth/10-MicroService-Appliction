@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: revanth77/adservice
+        image: adservice
         ports:
         - containerPort: 9555
         env:
